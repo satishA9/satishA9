@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17541" started-at="2018-10-09T10:01:08Z" finished-at="2018-10-09T10:01:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17541" started-at="2018-10-09T10:01:08Z" finished-at="2018-10-09T10:01:26Z">
+      <class name="testngwithpom.Testngdatawithsameclass">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testngwithpom.Testngdatawithsameclass@86be70a]" name="launch" is-config="true" duration-ms="8261" started-at="2018-10-09T10:01:08Z" finished-at="2018-10-09T10:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngwithpom.Testngdatawithsameclass@86be70a]" name="search" duration-ms="7135" started-at="2018-10-09T10:01:17Z" data-provider="way2smspreeti" finished-at="2018-10-09T10:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8668218023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Preeti123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8341111338]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngwithpom.Testngdatawithsameclass@86be70a]" name="close" is-config="true" duration-ms="2102" started-at="2018-10-09T10:01:24Z" finished-at="2018-10-09T10:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testngwithpom.Testngdatawithsameclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
